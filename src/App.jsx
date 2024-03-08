@@ -2,7 +2,7 @@ import DisplaySection from "./components/DisplaySection";
 import Jumbotron from "./components/Jumbotron";
 import SoundSection from "./components/SoundSection";
 import WebGiViewer from "./components/WebGiViewer";
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 
 function App() {
 
