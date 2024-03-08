@@ -1,9 +1,18 @@
+import DisplaySection from "./components/DisplaySection";
+import Jumbotron from "./components/Jumbotron";
+import SoundSection from "./components/SoundSection";
+import WebGiViewer from "./components/WebGiViewer";
+import Nav from "./components/nav";
 
 function App() {
 
   return (
     <div className="App">
-      Hello
+      <Nav/>
+      <Jumbotron/>
+      <SoundSection/>
+      <DisplaySection/>
+      <WebGiViewer/>
     </div>
   );
 }

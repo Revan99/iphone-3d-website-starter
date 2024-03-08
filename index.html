@@ -5,9 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iPhone 14</title>
+    <!--Add this script tag in the page head-->
+<script src="https://dist.pixotronics.com/webgi/runtime/viewer-0.8.3.js"> </script>
+<!--Add the viewer element somewhere inside the body of the page.-->
+
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <webgi-viewer
+        src="https://dist.pixotronics.com/webgi/assets/gltf/cube_diamond_sample.gltf"
+        environment="https://dist.pixotronics.com/webgi/assets/hdr/gem_2.hdr"
+        style="width: 100%; height: 100%; z-index: 1; display: block;"
+/>
   </body>
 </html>
